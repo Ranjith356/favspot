@@ -1,0 +1,33 @@
+.header-nave {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border-top: 2.8px solid white; */
+}
+
+.header-nave::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 50%; 
+    /* border-top: 2.8px solid white; */
+}
+.header-nave::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+   width: 100%; 
+    border-bottom: 2.8px solid white;
+}
+.logo,.order-logo{
+    height: 8vh;
+}
+.post-prodect{
+    display: flex;
+    flex-direction: column;
+}
+.post-label{
+    color: white;
+    font-weight: 600;
+}

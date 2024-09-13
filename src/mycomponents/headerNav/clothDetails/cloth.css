@@ -1,0 +1,34 @@
+
+.cloth-type {
+  display: flex;
+  gap: 2vh;
+}
+.Special-Instructions ,.Address-Details{
+    width: 40vh;
+}
+.cloth-size{
+    display: flex;
+    gap: 2vh;
+}
+.full-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5vh;
+}
+.cloth-StandardSize ,.cloth-CustomSize{
+    width: 20vh;
+}
+.cloth-catagory ,.cloth-StandardSize ,.cloth-CustomSize ,.text-area{
+   background: none !important;
+   color: white;
+  }
+  .cloth-catagory::placeholder,.cloth-StandardSize::placeholder ,.cloth-CustomSize::placeholder{
+    color: white;
+    opacity: 1; 
+  }
+  .footer-text-area{
+    display: flex;
+    gap: 2vh;
+  }
+ 
