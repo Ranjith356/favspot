@@ -9,6 +9,7 @@ export default function MainRouter() {
    <Routes>
 <Route path="/" Component={Login} />
 <Route path="home" Component={Home} />
-</Routes></BrowserRouter></>
+</Routes></BrowserRouter>
+</>
   )
 }
