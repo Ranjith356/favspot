@@ -7,7 +7,7 @@ export default function MainRouter() {
    <>
    <BrowserRouter>
    <Routes>
-<Route path="/" Component={Login} />
+<Route path="/favspot" Component={Login} />
 <Route path="home" Component={Home} />
 </Routes></BrowserRouter>
 </>
