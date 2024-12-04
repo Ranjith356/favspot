@@ -5,7 +5,7 @@ import Home from "./home/home";
 export default function MainRouter() {
   return (
    <>
-   <BrowserRouter basename="e-commerce">
+   <BrowserRouter>
    <Routes>
 <Route path="/" Component={Login} />
 <Route path="home" Component={Home} />
