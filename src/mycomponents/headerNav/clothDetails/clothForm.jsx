@@ -5,7 +5,6 @@ import { useDispatch } from 'react-redux';
 import { updateFormData } from "../tookitStore/StoreSlice";
 export default function ClothForm() {
     const dispatch = useDispatch();
-   
    const handleChange = (e) => {
       const { name, value } = e.target;
       dispatch(updateFormData({ [name]: value }));

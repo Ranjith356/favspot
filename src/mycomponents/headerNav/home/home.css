@@ -1,5 +1,6 @@
 .home{
-background-image: url("/public/vector-colour-gradient-cool-abstract-background.jpg");
+display: flex;
+flex-direction: column;
 height:100vh;
 width: 100%;
 }

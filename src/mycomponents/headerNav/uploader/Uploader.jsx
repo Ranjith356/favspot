@@ -3,7 +3,7 @@ import ImgCrop from "antd-img-crop";
 import "./uploader.css";
 import { useState } from "react";
 import ClothForm from "../clothDetails/clothForm";
-import {     useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 // import { updateFormData } from "../tookitStore/StoreSlice";
 export default function Uploader(prop) {
   // const dispatch = useDispatch();

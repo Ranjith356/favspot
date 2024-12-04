@@ -1,9 +1,8 @@
-.header-nave {
+/* .header-nave {
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border-top: 2.8px solid white; */
 }
 
 .header-nave::before {
@@ -11,7 +10,6 @@
     position: absolute;
     top: 0;
     width: 50%; 
-    /* border-top: 2.8px solid white; */
 }
 .header-nave::after {
     content: "";
@@ -30,4 +28,28 @@
 .post-label{
     color: white;
     font-weight: 600;
-}
+} */
+ .header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(28 93 49 / 73%);
+    height: 100px;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3), /* Regular shadow */
+                inset 0 0 15px rgba(255, 255, 255, 0.2); /* Glow inside */
+ } 
+  .logo{
+    height: 100px;
+    width: 100px;
+  }
+  .iconsdiv{
+    display: flex;
+    width: 10em;
+    height: 5em;
+    gap: 1em;
+    justify-content: space-evenly;
+  }
+  .icons{
+    font-size: 33px;
+    color: aliceblue;
+  }
