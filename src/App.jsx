@@ -3,9 +3,9 @@ import { Toaster } from 'react-hot-toast';
 export default function App() {
   return (
     <>
-     <Toaster />
-    <MainRouter /> 
-
+{/*      <Toaster />
+    <MainRouter />  */}
+<P>hey bro</P>
 </>
   
  )
