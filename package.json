@@ -1,7 +1,7 @@
 {
   "homepage": "https://Ranjith356.github.io/favspot",
-  "name": "e-commerce",
-  "private": true,
+  "name": "favspot",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
