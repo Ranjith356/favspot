@@ -5,9 +5,9 @@ import Home from "./home/home";
 export default function MainRouter() {
   return (
    <>
-   <BrowserRouter basename="/">
+   <BrowserRouter >
    <Routes>
-<Route exact path="/" Component={Login} />
+<Route exact path="/favspot" Component={Login} />
 <Route path="home" Component={Home} />
 </Routes>
 </BrowserRouter>
