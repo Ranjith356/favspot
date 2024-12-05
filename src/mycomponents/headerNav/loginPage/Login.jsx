@@ -19,8 +19,13 @@ export default function Login() {
    const validMobileNumber=MobileNumber(phoneNumber);
   if(validMobileNumber===true){
     dispatch(updateFormData({ loginMobileNumber: phoneNumber}));
+    try{
     UpdateQuery(phoneNumber);
-    navigate("home");
+    navigate("/home");
+  }catch{
+    navigate("/favspot");
+  }   
+   
    }else{
     setBtnVisibility(false);
     toast.error("invalid mobile Number");

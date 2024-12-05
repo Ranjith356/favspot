@@ -12,7 +12,6 @@ const UpdateQuery=async(props)=>{
     }
    }catch{
     toast.error("Data Insert Fail");
-    console.log("data BaseUpdating errors");
    }
 }
 export {UpdateQuery}
