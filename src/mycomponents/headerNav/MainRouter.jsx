@@ -10,7 +10,7 @@ export default function MainRouter() {
    <>
    <BrowserRouter>
    <Routes>
-<Route exact path="/" Component={Login} />
+<Route exact path="/favspot/" Component={Login} />
 <Route path="/home" Component={Home} >
 <Route path="account-creation" Component={AccountCreation} />
 <Route path="post-product" Component={PostProduct} />
