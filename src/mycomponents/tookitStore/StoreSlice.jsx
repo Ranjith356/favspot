@@ -1,6 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
-const initialState = {
-};
+const initialState = [{
+ 
+}];
 export const formDataSlice = createSlice({
   name: 'formData',
   initialState,
@@ -16,7 +17,5 @@ export const formDataSlice = createSlice({
     },
   },
 });
-
 export const { updateFormData, resetFormData } = formDataSlice.actions;
-
 export default formDataSlice.reducer;

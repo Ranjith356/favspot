@@ -1,9 +1,11 @@
 .main-content{
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
     gap: 2em;
     margin-top: 1.5em;
     padding: 1em;
 }
+
 .ant-card-cover img{
     height: 28vh;
     border-radius: 6px 6px 0 0;
@@ -12,7 +14,12 @@
     padding: 0.6px;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     text-align: center;
+    cursor: pointer;
 }
 .ant-card-body{
     padding: unset !important;
+}
+.ant-card:hover{
+    border: 2px solid rgb(28 93 49 / 73%);
+    transition: border-color 0.3s ease, color 0.3s ease;
 }

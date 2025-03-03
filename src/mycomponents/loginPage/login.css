@@ -1,5 +1,7 @@
 .login-background{
-    background: url("../../../images/Niche service marketplace-amico (1).png");
+    /* background: url("../../../images/Niche service marketplace-amico (1).png");
+     */
+     background: url("/src/images/Niche service marketplace-amico (1).png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -9,6 +11,16 @@
   justify-content: center;
   background-position: left;
   align-items: center;
+  /* animation: rotate 4s linear infinite; */
+  /* transition: transform 0.5s ease; */
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 .login-logo{
     width: 10vh;
@@ -65,7 +77,4 @@
     /* border-color: #f64dff !important; */
     color:rgb(13, 12, 12) !important;
   }
-  /* .ant-form-item-explain-error{
-    color: rgb(0 0 0 / 71%) !important;
-    font-weight: bold !important;
-  } */
+ 
